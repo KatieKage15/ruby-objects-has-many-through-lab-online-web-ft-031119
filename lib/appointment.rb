@@ -6,7 +6,7 @@ class Appointment
     @name = name
     @patient = patient
     @doctor = doctor
-    @date = date 
+    @date = date
     @@all << self
   end
 
