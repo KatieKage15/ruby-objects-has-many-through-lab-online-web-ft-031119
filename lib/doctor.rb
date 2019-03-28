@@ -7,7 +7,7 @@ class Doctor
     @@all << self
   end
 
-  def all.self 
+  def all.self
     @@all
   end
 
@@ -15,6 +15,6 @@ class Doctor
       Song.new(patient, date, self)
   end
 
-  
 
-end  
+
+end
