@@ -17,7 +17,10 @@ class Genre
   end
 
   def artists
-    artists.all.map |genre|
-    song.artist
+    songs.map(&:artist)
+  end
+
+  def add_song
+    songs << song
   end
 end
